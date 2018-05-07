@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2612D34E20A086960083DA33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D34D20A086960083DA33 /* AppDelegate.swift */; };
+		2612D35020A086960083DA33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D34F20A086960083DA33 /* ViewController.swift */; };
+		2612D35320A086960083DA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2612D35120A086960083DA33 /* Main.storyboard */; };
+		2612D35620A086960083DA33 /* SpeakLine_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2612D35420A086960083DA33 /* SpeakLine_iOS.xcdatamodeld */; };
+		2612D35820A086970083DA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2612D35720A086970083DA33 /* Assets.xcassets */; };
+		2612D35B20A086970083DA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2612D35920A086970083DA33 /* LaunchScreen.storyboard */; };
+		2612D36620A086970083DA33 /* SpeakLine_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D36520A086970083DA33 /* SpeakLine_iOSTests.swift */; };
+		2612D37120A086970083DA33 /* SpeakLine_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D37020A086970083DA33 /* SpeakLine_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2612D36220A086970083DA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2612D34220A086960083DA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2612D34920A086960083DA33;
+			remoteInfo = "SpeakLine iOS";
+		};
+		2612D36D20A086970083DA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2612D34220A086960083DA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2612D34920A086960083DA33;
+			remoteInfo = "SpeakLine iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2612D34A20A086960083DA33 /* SpeakLine iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeakLine iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612D34D20A086960083DA33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2612D34F20A086960083DA33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2612D35220A086960083DA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2612D35520A086960083DA33 /* SpeakLine_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpeakLine_iOS.xcdatamodel; sourceTree = "<group>"; };
+		2612D35720A086970083DA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2612D35A20A086970083DA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2612D35C20A086970083DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2612D36120A086970083DA33 /* SpeakLine iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakLine iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612D36520A086970083DA33 /* SpeakLine_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakLine_iOSTests.swift; sourceTree = "<group>"; };
+		2612D36720A086970083DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2612D36C20A086970083DA33 /* SpeakLine iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakLine iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2612D37020A086970083DA33 /* SpeakLine_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakLine_iOSUITests.swift; sourceTree = "<group>"; };
+		2612D37220A086970083DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2612D34720A086960083DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D35E20A086970083DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D36920A086970083DA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2612D34120A086960083DA33 = {
+			isa = PBXGroup;
+			children = (
+				2612D34C20A086960083DA33 /* SpeakLine iOS */,
+				2612D36420A086970083DA33 /* SpeakLine iOSTests */,
+				2612D36F20A086970083DA33 /* SpeakLine iOSUITests */,
+				2612D34B20A086960083DA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2612D34B20A086960083DA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2612D34A20A086960083DA33 /* SpeakLine iOS.app */,
+				2612D36120A086970083DA33 /* SpeakLine iOSTests.xctest */,
+				2612D36C20A086970083DA33 /* SpeakLine iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2612D34C20A086960083DA33 /* SpeakLine iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2612D34D20A086960083DA33 /* AppDelegate.swift */,
+				2612D34F20A086960083DA33 /* ViewController.swift */,
+				2612D35120A086960083DA33 /* Main.storyboard */,
+				2612D35720A086970083DA33 /* Assets.xcassets */,
+				2612D35920A086970083DA33 /* LaunchScreen.storyboard */,
+				2612D35C20A086970083DA33 /* Info.plist */,
+				2612D35420A086960083DA33 /* SpeakLine_iOS.xcdatamodeld */,
+			);
+			path = "SpeakLine iOS";
+			sourceTree = "<group>";
+		};
+		2612D36420A086970083DA33 /* SpeakLine iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2612D36520A086970083DA33 /* SpeakLine_iOSTests.swift */,
+				2612D36720A086970083DA33 /* Info.plist */,
+			);
+			path = "SpeakLine iOSTests";
+			sourceTree = "<group>";
+		};
+		2612D36F20A086970083DA33 /* SpeakLine iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2612D37020A086970083DA33 /* SpeakLine_iOSUITests.swift */,
+				2612D37220A086970083DA33 /* Info.plist */,
+			);
+			path = "SpeakLine iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2612D34920A086960083DA33 /* SpeakLine iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612D37520A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOS" */;
+			buildPhases = (
+				2612D34620A086960083DA33 /* Sources */,
+				2612D34720A086960083DA33 /* Frameworks */,
+				2612D34820A086960083DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpeakLine iOS";
+			productName = "SpeakLine iOS";
+			productReference = 2612D34A20A086960083DA33 /* SpeakLine iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2612D36020A086970083DA33 /* SpeakLine iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612D37820A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOSTests" */;
+			buildPhases = (
+				2612D35D20A086970083DA33 /* Sources */,
+				2612D35E20A086970083DA33 /* Frameworks */,
+				2612D35F20A086970083DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2612D36320A086970083DA33 /* PBXTargetDependency */,
+			);
+			name = "SpeakLine iOSTests";
+			productName = "SpeakLine iOSTests";
+			productReference = 2612D36120A086970083DA33 /* SpeakLine iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2612D36B20A086970083DA33 /* SpeakLine iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2612D37B20A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOSUITests" */;
+			buildPhases = (
+				2612D36820A086970083DA33 /* Sources */,
+				2612D36920A086970083DA33 /* Frameworks */,
+				2612D36A20A086970083DA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2612D36E20A086970083DA33 /* PBXTargetDependency */,
+			);
+			name = "SpeakLine iOSUITests";
+			productName = "SpeakLine iOSUITests";
+			productReference = 2612D36C20A086970083DA33 /* SpeakLine iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2612D34220A086960083DA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Cosmic Arrows, LLC";
+				TargetAttributes = {
+					2612D34920A086960083DA33 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					2612D36020A086970083DA33 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2612D34920A086960083DA33;
+					};
+					2612D36B20A086970083DA33 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 2612D34920A086960083DA33;
+					};
+				};
+			};
+			buildConfigurationList = 2612D34520A086960083DA33 /* Build configuration list for PBXProject "SpeakLine iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2612D34120A086960083DA33;
+			productRefGroup = 2612D34B20A086960083DA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2612D34920A086960083DA33 /* SpeakLine iOS */,
+				2612D36020A086970083DA33 /* SpeakLine iOSTests */,
+				2612D36B20A086970083DA33 /* SpeakLine iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2612D34820A086960083DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612D35B20A086970083DA33 /* LaunchScreen.storyboard in Resources */,
+				2612D35820A086970083DA33 /* Assets.xcassets in Resources */,
+				2612D35320A086960083DA33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D35F20A086970083DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D36A20A086970083DA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2612D34620A086960083DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612D35020A086960083DA33 /* ViewController.swift in Sources */,
+				2612D35620A086960083DA33 /* SpeakLine_iOS.xcdatamodeld in Sources */,
+				2612D34E20A086960083DA33 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D35D20A086970083DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612D36620A086970083DA33 /* SpeakLine_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2612D36820A086970083DA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2612D37120A086970083DA33 /* SpeakLine_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2612D36320A086970083DA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2612D34920A086960083DA33 /* SpeakLine iOS */;
+			targetProxy = 2612D36220A086970083DA33 /* PBXContainerItemProxy */;
+		};
+		2612D36E20A086970083DA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2612D34920A086960083DA33 /* SpeakLine iOS */;
+			targetProxy = 2612D36D20A086970083DA33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2612D35120A086960083DA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2612D35220A086960083DA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2612D35920A086970083DA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2612D35A20A086970083DA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2612D37320A086970083DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2612D37420A086970083DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2612D37620A086970083DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2612D37720A086970083DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2612D37920A086970083DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakLine iOS.app/SpeakLine iOS";
+			};
+			name = Debug;
+		};
+		2612D37A20A086970083DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeakLine iOS.app/SpeakLine iOS";
+			};
+			name = Release;
+		};
+		2612D37C20A086970083DA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeakLine iOS";
+			};
+			name = Debug;
+		};
+		2612D37D20A086970083DA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZMJGSJ72TL;
+				INFOPLIST_FILE = "SpeakLine iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cosmicarrows.SpeakLine-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SpeakLine iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2612D34520A086960083DA33 /* Build configuration list for PBXProject "SpeakLine iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612D37320A086970083DA33 /* Debug */,
+				2612D37420A086970083DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612D37520A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612D37620A086970083DA33 /* Debug */,
+				2612D37720A086970083DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612D37820A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612D37920A086970083DA33 /* Debug */,
+				2612D37A20A086970083DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2612D37B20A086970083DA33 /* Build configuration list for PBXNativeTarget "SpeakLine iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2612D37C20A086970083DA33 /* Debug */,
+				2612D37D20A086970083DA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2612D35420A086960083DA33 /* SpeakLine_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2612D35520A086960083DA33 /* SpeakLine_iOS.xcdatamodel */,
+			);
+			currentVersion = 2612D35520A086960083DA33 /* SpeakLine_iOS.xcdatamodel */;
+			path = SpeakLine_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2612D34220A086960083DA33 /* Project object */;
+}
