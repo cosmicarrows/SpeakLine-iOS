@@ -15,6 +15,8 @@
 		2612D35B20A086970083DA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2612D35920A086970083DA33 /* LaunchScreen.storyboard */; };
 		2612D36620A086970083DA33 /* SpeakLine_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D36520A086970083DA33 /* SpeakLine_iOSTests.swift */; };
 		2612D37120A086970083DA33 /* SpeakLine_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D37020A086970083DA33 /* SpeakLine_iOSUITests.swift */; };
+		2612D37F20A088E30083DA33 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2612D37E20A088E30083DA33 /* MainViewController.swift */; };
+		2612D38120A088F50083DA33 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2612D38020A088F50083DA33 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2612D36C20A086970083DA33 /* SpeakLine iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpeakLine iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2612D37020A086970083DA33 /* SpeakLine_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakLine_iOSUITests.swift; sourceTree = "<group>"; };
 		2612D37220A086970083DA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2612D37E20A088E30083DA33 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2612D38020A088F50083DA33 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				2612D35920A086970083DA33 /* LaunchScreen.storyboard */,
 				2612D35C20A086970083DA33 /* Info.plist */,
 				2612D35420A086960083DA33 /* SpeakLine_iOS.xcdatamodeld */,
+				2612D37E20A088E30083DA33 /* MainViewController.swift */,
+				2612D38020A088F50083DA33 /* MainViewController.xib */,
 			);
 			path = "SpeakLine iOS";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 				2612D35B20A086970083DA33 /* LaunchScreen.storyboard in Resources */,
 				2612D35820A086970083DA33 /* Assets.xcassets in Resources */,
 				2612D35320A086960083DA33 /* Main.storyboard in Resources */,
+				2612D38120A088F50083DA33 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 				2612D35020A086960083DA33 /* ViewController.swift in Sources */,
 				2612D35620A086960083DA33 /* SpeakLine_iOS.xcdatamodeld in Sources */,
 				2612D34E20A086960083DA33 /* AppDelegate.swift in Sources */,
+				2612D37F20A088E30083DA33 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
