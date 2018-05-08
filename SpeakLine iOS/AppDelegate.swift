@@ -34,20 +34,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     var mainViewController: MainViewController?
+    //created a property called mainViewController which is an optional  so iti doesn't need to be initialized when AppDelegate is initialized.
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         //so as this function fires we need to put forth some effort.....from inside this function instantiate a view controller
         let mainViewController = MainViewController()
         
-        //put the view of the ViewController on screen
-        //mainViewController.show(mainViewController, sender: self)
-        
-        window?.backgroundColor = UIColor.purple
-        
         window?.rootViewController = mainViewController
         
-        //set the property to point to the viewController
+        //set the property to point to the mainViewController instance whick keeps the instnace alive outisde the scope of this didFiniahLaunchingWithOptions method
         self.mainViewController = mainViewController
         
         return true

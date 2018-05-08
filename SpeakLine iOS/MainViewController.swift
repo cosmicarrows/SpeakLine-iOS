@@ -26,8 +26,15 @@
 */
 
 import UIKit
+import AVFoundation
 
 class MainViewController: UIViewController {
+    
+    @IBOutlet weak var textField: UITextView!
+    @IBOutlet weak var speakButton: UIButton!
+    @IBOutlet weak var stopButton: UIButton!
+    
+    let speechSynth = AVSpeechSynthesizer()
     
     override var nibName: String? {
         return "MainViewController"
@@ -42,5 +49,24 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
+    // MARK: - Action Methods
+    
+    @IBAction func speakIt(sender: UIButton) {
+        
+        //Get typed-in text as a string
+        let string = textField.text
+        if (string?.isEmpty)! {
+            print("string from \(textField) is empty")
+        } else {
+            
+            speechSynth.speak(AVSpeechUtterance.init(string: string!))
+            //print("string is \"\(textField.text!)\"")
+        }
+    }
+    
+    @IBAction func stopIt(sender: UIButton) {
+        //print("stop button clicked")
+        speechSynth.stopSpeaking(at: AVSpeechBoundary.init(rawValue: 2)!)
+    }
 
 }
